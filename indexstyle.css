@@ -51,8 +51,8 @@ li {
 #content {
 	position: absolute;
 	top: 80px;
-	left: 150px;
-	width: 600px;
+	left: 200px;
+	width: 550px;
 	}
 	
 #content p {
@@ -94,10 +94,6 @@ li {
 	position: absolute;
 	left: 650px;
 	padding: 0px 50px 0px 0px;
-	}
-	
-#content p {
-	font-size: 16px;
 	}
 	
 #dycontainer {

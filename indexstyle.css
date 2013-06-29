@@ -1,21 +1,32 @@
 h1 {
+    font-weight:100;
 	font-family: "minion pro", Garamond, serif;
 	font-size: 48px;
 	font-variant: small-caps;
 	}
 h2 {
+    font-weight: 100;
 	font-family: "minion pro", Garamond, serif;
 	font-size: 36px;
 	}
 	
 h3 {
-	font-family: "minion pro", Garamond, serif;
-	font-size: 24px;
+    font-weight: 100;
+    font-family: "minion pro", Garamond, serif;
+    font-size: 24px;
 	}
+
+h4 {
+    font-weight: 100;
+    font-family: "minion pro", Garamond, serif;
+    font-size: 18px;
+	}
+
+
 
 p {
 	font-family: "minion pro", serif;
-	font-size: 16px;
+	font-size: 14px;
 	}
 	
 ul {
@@ -31,16 +42,17 @@ li {
 
 #navbar {
 	position: absolute;
-	top: 10px;
+	top: 30px;
 	left: 10px;
 	width: 600px;
-	text-align: center;
+	text-align: left;
 	}
 #navbar li {
-	display: inline;
-	padding: 20px;
-	font-size: 16px;
-	font-family: "QuattrocentoRomanRegular", serif;
+    font-weight: 100;
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+    font-family: "minion pro", serif;
 	}
 			
 #header {
@@ -50,13 +62,9 @@ li {
 
 #content {
 	position: absolute;
-	top: 80px;
-	left: 200px;
-	width: 550px;
-	}
-	
-#content p {
-	font-size: 16px;
+	top: 100px;
+	left: 100px;
+	width: 400px;
 	}
 	
 #widecontent {
@@ -140,15 +148,15 @@ li {
 }
 
 a:link {
-		color:#890606;
+		color:#004B6B;
 		text-decoration:none;
 		}      /* unvisited link */
 a:visited {
-		color:#9e4f4f;
+		color:#535E63;
 		text-decoration:none;
 		}  /* visited link */
 a:hover {
-		color:#aa0606;
+		color:#0074A6;
 		text-decoration:none;
 		}  /* mouse over link */
 a:active {

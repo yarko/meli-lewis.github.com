@@ -22,8 +22,6 @@ h4 {
     font-size: 18px;
 	}
 
-
-
 p {
     font-family: "minion pro", serif;
     font-size: 14px;
@@ -40,20 +38,82 @@ li {
 	font-size: 16px;
 	}
 
-#navbar {
-	position: absolute;
-	top: 30px;
-	left: 10px;
-	width: 600px;
-	text-align: left;
+.colwrapper {
+		position:absolute;
+        left: 100px;
+        top: 50px;
+		clear:both;
+		float:left;
+		width:80%;			/* width of whole page */
+		overflow:hidden;		/* This chops off any overhanging divs */
 	}
-#navbar li {
-    font-weight: 100;
-    display: inline;
-    padding: 30px;
-    font-size: 20px;
-    font-family: "minion pro", serif;
+	/* common column settings */
+	.colright,
+	.colmid,
+	.colleft {
+		float:left;
+		width:100%;
+		position:relative;
 	}
+	.col1,
+	.col2 {
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+
+    .col2 p {
+        font-size: 16px;
+    }
+
+	/* 2 Column (left menu) settings */
+	.leftmenu {
+
+	}
+	.leftmenu .colleft {
+		right:75%;			/* right column width */
+	}
+	.leftmenu .col1 {
+		width:71%;			/* right column content width */
+		left:102%;			/* 100% plus left column left padding */
+	}
+	.leftmenu .col2 {
+		width:21%;			/* left column content width (column width minus left and right padding) */
+		left:6%;			/* (right column left and right padding) plus (left column left padding) */
+	}
+	/* Footer styles */
+	#footer {
+		clear:both;
+		float:left;
+		width:100%;
+		border-top:1px solid #000;
+	}
+	#footer p {
+		padding:10px;
+		margin:0;
+	}
+
+#body p {
+    font-family: "baskerville", serif;
+    font-size: 14px;
+    color:#898A8C;
+}
+
+/*#navbar {*/
+	/*position: absolute;*/
+	/*top: 30px;*/
+	/*left: 10px;*/
+	/*width: 600px;*/
+	/*text-align: left;*/
+	/*}*/
+/*#navbar li {*/
+    /*font-weight: 100;*/
+    /*display: inline;*/
+    /*padding: 30px;*/
+    /*font-size: 20px;*/
+    /*font-family: "minion pro", serif;*/
+	/*}*/
 			
 #header {
 	position: relative;
@@ -67,18 +127,7 @@ li {
 	width: 400px;
 	}
 
-#indexcontent {
-	position: absolute;
-	top: 150px;
-	left: 175px;
-	width: 400px;
-	}
 
-#indexcontent p {
-    font-family: "baskerville", serif;
-    font-size: 14px;
-    color:#898A8C;
-}
 	
 #widecontent {
 	position: absolute;
@@ -161,7 +210,7 @@ li {
 }
 
 a:link {
-		color:#004B6B;
+		color:#9D9EA2;
 		text-decoration:none;
 		}      /* unvisited link */
 a:visited {

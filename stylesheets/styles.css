@@ -22,6 +22,10 @@ ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+ul.subclass {
+    margin-bottom: 0px;
+}
+
 p {
   margin:0 0 10px;
 }
@@ -53,6 +57,10 @@ a small {
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+li {
+    list-style: none;
 }
 
 .wrapper {

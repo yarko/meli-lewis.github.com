@@ -6,7 +6,6 @@ AUTHOR = u'Melissa'
 SITENAME = u'OR to VA'
 SITEURL = ''
 THEME = "/Users/m/pelican-themes/elegant"
-
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'

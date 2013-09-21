@@ -2,11 +2,18 @@
 <html>
   <head>
     <title>Thesis</title>
-			<link rel="stylesheet" href="indexstyle.css" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand|Quattrocento">
-    		<script src="jquery-2.0.2.min.js"></script>
-  </head>
-  <body>
-  <script type="text/javascript">
+        <!--<link rel="stylesheet" href="indexstyle.css" type="text/css" href="http://fonts.googleapis.com/css?family=Quicksand|Quattrocento">-->
+    	<script src="jquery-2.0.2.min.js"></script>
+         <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+        <script type="text/javascript">
     function toggle_visibility(id) {
        var toggle = document.getElementById(id);
        if(toggle.style.display == 'block')
@@ -15,62 +22,82 @@
           toggle.style.display = 'block';
     }
 	</script>
-			<div id="nav">
-				<ul id="navbar">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="school.html">School</a></li>
-					<li><a href="work.html">Work</a></li>
-					<li><a href="more.html">More</a></li>
-				</ul>
-			</div> <!-- nav -->
-    <div id="widecontent">
-    	<div id="left">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>meli[-._]lew(is)?</h1>
+        <p></p>
+          <h3>Here</h3>
+        <p class="view"><a href="index.html" style="padding-right: 15px;">Home</a> <a href="school.html" style="padding-right: 15px;">School</a> <a href="work.html" style="padding-right: 15px;">Work</a></p>
+          <h3>There</h3>
+          <p class="icons">
+            <a class="github" href="github.com/meli-lewis"></a>
+            <a class="twitter" href="https://twitter.com/meli_lew"></a>
+            <a class="flickr" href="flickr.com/photos/meli-lewis/"></a>
+          </p>
+      </header>
+    <section>
+        <h3><strong>I&#8217;m no longer running this, but keep this up for anyone who might want to make a similar site for their own experiment.</strong></h3>
+        <br>
       <h1>The Thesis</h1>
       <h3>If you are here because you&#8217;d like to participate, click <a href="participants.html">here</a>!</h3>
-      <p>If you&#8217;re still not sure, here&#8217;s <a onclick="toggle_visibility('pitch');"><span style="color:#aa0606">the pitch</span></a>.
-      </p>
-      <div id="pitch" style='display:none;'><p>This is a relatively brief EEG experiment (roughly 60 minutes&#8217; prep time, and roughly 20 minutes&#8217; task time) with two purposes: one is as a straightforward EEG experiment looking for a reliable ERP component, i.e. a signal correlated to a cognitive event, corresponding to making errors in a simple <a href="http://en.wikipedia.org/wiki/Eriksen_flanker_task">computer task</a>. Not only do I receive valuable training in a fairly new and burgeoning experimental procedure, but I also learn more about being a good scientist in general.</p>
-      <p>The second purpose pertains to the first half of my experiment, which is a direct replication of a published research finding. This is part of the Open Science Collaboration, which I&#8217;ve linked to below. An international group of scientists is cooperating as we speak to explore the extent to which published research is replicable, and also to figure out new ways to improve replicability, because it is a <a href="http://en.wikipedia.org/wiki/Replication_(scientific_method)">foundational principle of science.</a></p>
-      <p>EEG is an exciting way of examining neurophysiological correlates of cognition and even <a href="http://en.wikipedia.org/wiki/Consciousness#Neural_correlates">consciousness</a>, but much work needs to be done to standardize it and otherwise make data available to people. I believe professional science as it stands today is in need of significant reform, but I&#8217;m hopeful this reform is possible and look forward to participating in realizing a more open, transparent, collaborative future for science and information in general.</p>
+        <p>If you&#8217;re still not sure, here&#8217;s <a onclick="toggle_visibility('pitch');"><span style="cursor: pointer;">the pitch</span></a>.
+        </p>
+      <div id="pitch" style='display:none;'>
+        <p>This is a relatively brief EEG experiment (roughly 60 minutes&#8217; prep time, and roughly 20 minutes&#8217; task time) with two purposes: one is as a straightforward EEG experiment looking for a reliable ERP component, i.e. a signal correlated to a cognitive event, corresponding to making errors in a simple <a href="http://en.wikipedia.org/wiki/Eriksen_flanker_task">computer task</a>. Not only do I receive valuable training in a fairly new and burgeoning experimental procedure, but I also learn more about being a good scientist in general.</p>
+        <p>The second purpose pertains to the first half of my experiment, which is a direct replication of a published research finding. This is part of the Open Science Collaboration, which I&#8217;ve linked to below. An international group of scientists is cooperating as we speak to explore the extent to which published research is replicable, and also to figure out new ways to improve replicability, because it is a <a href="http://en.wikipedia.org/wiki/Replication_(scientific_method)">foundational principle of science.</a></p>
+        <p>EEG is an exciting way of examining neurophysiological correlates of cognition and even <a href="http://en.wikipedia.org/wiki/Consciousness#Neural_correlates">consciousness</a>, but much work needs to be done to standardize it and otherwise make data available to people. I believe professional science as it stands today is in need of significant reform, but I&#8217;m hopeful this reform is possible and look forward to participating in realizing a more open, transparent, collaborative future for science and information in general.</p>
       </div> <!-- pitch -->
-      <ul>
       <h2>Reed College</h2>
-      <ul>
-        <li><a href="http://reed.edu/psychology/scalp/">the SCALP lab</a></li>
-        <li><a href="http://academic.reed.edu/psychology/faculty/pitts.html">the advisor</a></li>
-        <li><a href="http://academic.reed.edu/psychology/index.html">the department</a></li>
-        <li><a href="http://1.bp.blogspot.com/-N4Dk5tSuTvY/Tk4fJ0iK8fI/AAAAAAAAAHY/B1GJDrGh9DA/s1600/tumblr_ljjyd2wned1qic93ho1_500.gif">the life</a></li>
-      </ul> <!-- Reed list -->
+        <ul>
+            <li><a href="http://reed.edu/psychology/scalp/">the SCALP lab</a></li>
+            <li><a href="http://academic.reed.edu/psychology/faculty/pitts.html">the advisor</a></li>
+            <li><a href="http://academic.reed.edu/psychology/index.html">the department</a></li>
+            <li><a href="http://1.bp.blogspot.com/-N4Dk5tSuTvY/Tk4fJ0iK8fI/AAAAAAAAAHY/B1GJDrGh9DA/s1600/tumblr_ljjyd2wned1qic93ho1_500.gif">the life</a></li>
+        </ul> <!-- Reed list -->
       <h2>Open Science</h2>
-      <ul>
-        <li>The experiment is part of the <a href="http://openscienceframework.org/">Open Science Framework</a>.</li>
-        <br>
-        <li><a href="http://www.theatlantic.com/magazine/archive/2010/11/lies-damned-lies-and-medical-science/308269/">Lies, Damned Lies, and Medical Science</a>, an Atlantic article on meta-researcher John Ioannadis and his assertion that most published research findings are false.</li>
-      </ul> <!-- science list -->
+        <ul>
+            <li>The experiment is part of the <a href="http://openscienceframework.org/">Open Science Framework</a>.</li>
+            <br>
+            <li><a href="http://www.theatlantic.com/magazine/archive/2010/11/lies-damned-lies-and-medical-science/308269/">Lies, Damned Lies, and Medical Science</a>, an Atlantic article on meta-researcher John Ioannadis and his assertion that most published research findings are false.</li>
+        </ul> <!-- science list -->
       <h2>Free and/or Open Source Software Used</h2>
-      <ul>
-	<li><a href="http://git-scm.com/about">Git</a> for version control (and posted on <a href="https://github.com/meli-lewis/">GitHub</a>)</li>
-	<li><a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX</a> for typesetting</li>
-    <li><a href="http://bibdesk.sourceforge.net/">BibDesk</a> for managing references</li>
-    <li><a href="http://en.wikipedia.org/wiki/Zotero">Zotero</a> for managing bibliographic data, i.e. retrieving metadata efficiently, i.e. the lazy way (it&#8217;ll change your life)
-    <li><a href="www.gnu.org/software/emacs">Emacs</a> for writing this here HTML</li>
-	<li><a href="https://www.dropbox.com/home">Dropbox</a> for managing files</li>
-	<li><a href="www.r-project.org">R</a> for data analysis</li>
-	</ul> <!-- FOSS list -->
+        <ul>
+	        <li><a href="http://git-scm.com/about">Git</a> for version control (and posted on <a href="https://github.com/meli-lewis/">GitHub</a>)</li>
+	        <li><a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX</a> for typesetting</li>
+            <li><a href="http://bibdesk.sourceforge.net/">BibDesk</a> for managing references</li>
+            <li><a href="http://en.wikipedia.org/wiki/Zotero">Zotero</a> for managing bibliographic data, i.e. retrieving metadata efficiently, i.e. the lazy way (it&#8217;ll change your life)
+            <li><a href="www.gnu.org/software/emacs">Emacs</a> for writing this here HTML</li>
+	        <li><a href="https://www.dropbox.com/home">Dropbox</a> for managing files</li>
+	        <li><a href="www.r-project.org">R</a> for data analysis</li>
+	    </ul> <!-- FOSS list -->
 	<!-- <h2>Visualizations</h2>
 	<ul>
 	  <li>The Reproducibility Project (coming soon)</li>
 	  <li><a href="d3/art230/thesistree.html">The Process</a></li>
 	  <li><a href="d3/art230/art230.html">Sleep</a></li>
 	</ul> -->
-	</ul>
-		</div> <!-- left-->
-		<div id="topright">
 		<p>click image to see full-size PDF</p>
-		<a href="images/bnw_poster.pdf"><img style='border:1px solid #000000' src="images/bnw_poster.png" alt="black and white poster" width="200" height="309"></a>
-		</div> <!-- topright -->
-		<div id="bottomright">
+		<a href="images/bnw_poster.pdf"><img style='border:1px solid #C0C0C0' src="images/bnw_poster.png" alt="black and white poster" width="177" height="274"></a>
 		<a href="images/sf_poster.pdf"><img src="images/sf_poster.png" alt="scifi poster" width="200" height="275"></a>
-		</div> <!-- bottomright -->
-	            </div> <!-- widecontent -->            
-    </html>
+      </section>
+
+      <footer>
+        <p><small>Theme adapted from <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43600517-1', 'meli-lewis.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>
+

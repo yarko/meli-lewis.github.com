@@ -47,7 +47,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#51a1b8;
   font-weight:400;
   text-decoration:none;
 }
@@ -200,6 +200,32 @@ footer {
   position:fixed;
   bottom:50px;
 }
+
+.icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+
+.icons a.twitter { background: url(../images/twitter.png) left top no-repeat; }
+.icons a.flickr { background: url(../images/flickr.png) left top no-repeat; }
+.icons a.reddit { background: url(../images/reddit.png) left top no-repeat; }
+.icons a.linkedin { background: url(../images/linkedin.png) left top no-repeat; }
+.icons a.facebook { background: url(../images/facebook.png) left top no-repeat; }
+.icons a.email { background: url(../images/email.png) left top no-repeat; }
+.icons a.github { background: url(../images/github.png) left top no-repeat; }
+.icons a.blogger { background: url(../images/blogger.png) left top no-repeat; }
+.icons a.googleplus { background: url(../images/googleplus.png) left top no-repeat; }
+.icons a.youtube { background: url(../images/youtube.png) left top no-repeat; }
+.icons a.google { background: url(../images/google.png) left top no-repeat; }
+
+.icons a:hover { background-position: left -34px; }
 
 @media print, screen and (max-width: 960px) {
   
